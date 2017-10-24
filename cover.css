@@ -2,13 +2,6 @@
  * Globals
  */
 
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
-
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -129,21 +122,6 @@ body {
  */
 
 @media (min-width: 40em) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-
   /* Handle the widths */
   .masthead,
   .mastfoot,
@@ -157,10 +135,6 @@ body {
   .mastfoot,
   .cover-container {
     width: 58rem;
-  }
-
-  .list {
-    text-align: right;
   }
 }
 
@@ -180,4 +154,10 @@ img.avatar {
 
 .deets dt {
   font-size: 1.3em;
+}
+
+.icons a {
+  font-size: 2rem;
+  margin: auto .5rem;
+  color: #fff;
 }
